@@ -17,24 +17,8 @@ Testes e Observabilidade: Implementação de testes unitários e logging estrutu
 📦 Estrutura do Projeto
 
 
-├── src/                      # Código fonte da pipeline
-│   ├── ingest.py             # Coleta de dados da API
-│   ├── transform.py          # Normalização e validação
-│   ├── load.py               # Carregamento para Parquet
-│   ├── llm_enrichment.py     # Integração com a LLM (Google Gemini)
-│   ├── utils.py              # Funções auxiliares (configuração, logging)
-│   └── main.py               # Orquestrador principal (executa a pipeline)
-├── raw/                      # Dados JSON brutos da API
-├── silver/                   # Dados normalizados (opcional, para depuração)
-├── gold/                     # Dados finais em formato Parquet
-├── reports/                  # Relatórios/insights gerados pela LLM
-├── .env                      # Variáveis de ambiente (chaves de API)
-├── requirements.txt          # Dependências do Python
-├── README.md                 # Documentação do projeto
-└── tests/                    # Testes unitários
-    ├── test_ingest.py        # Testes para a etapa de ingestão
-    ├── test_transform.py     # Testes para a etapa de transformação
-    └── __init__.py           # Inicializa o diretório como pacote Python
+<img width="622" height="315" alt="image" src="https://github.com/user-attachments/assets/2b34dade-d1c3-493e-8cac-e4c28c243015" />
+
 
 
     
@@ -113,4 +97,5 @@ Logging Estruturado: Utilização da biblioteca logging com formato JSON (src/ut
 🗓️ Regras de Entrega e Apresentação
 
 Este projeto está configurado para ser entregue com o código no GitHub e este README.md completo. A apresentação ao vivo seria uma oportunidade para demonstrar o funcionamento da pipeline e os insights gerados.
+
 
