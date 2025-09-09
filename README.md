@@ -15,6 +15,8 @@ Enriquecimento com LLM: Geração de resumos e insights em linguagem natural, ut
 Testes e Observabilidade: Implementação de testes unitários e logging estruturado para garantir a robustez e monitoramento da pipeline.
 
 📦 Estrutura do Projeto
+
+
 .
 ├── src/                      # Código fonte da pipeline
 │   ├── ingest.py             # Coleta de dados da API
@@ -34,6 +36,9 @@ Testes e Observabilidade: Implementação de testes unitários e logging estrutu
     ├── test_ingest.py        # Testes para a etapa de ingestão
     ├── test_transform.py     # Testes para a etapa de transformação
     └── __init__.py           # Inicializa o diretório como pacote Python
+
+
+    
 
 ⚙️ Setup e Configuração
 Siga os passos abaixo para configurar e executar o projeto.
@@ -107,4 +112,5 @@ Logging Estruturado: Utilização da biblioteca logging com formato JSON (src/ut
 15% Criatividade extra (ex.: dashboards ou análises adicionais): (Opcional - Adicione aqui se implementar um dashboard Streamlit, por exemplo.)
 
 🗓️ Regras de Entrega e Apresentação
+
 Este projeto está configurado para ser entregue com o código no GitHub e este README.md completo. A apresentação ao vivo seria uma oportunidade para demonstrar o funcionamento da pipeline e os insights gerados.
