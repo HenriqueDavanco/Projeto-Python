@@ -17,7 +17,6 @@ Testes e Observabilidade: Implementação de testes unitários e logging estrutu
 📦 Estrutura do Projeto
 
 
-.
 ├── src/                      # Código fonte da pipeline
 │   ├── ingest.py             # Coleta de dados da API
 │   ├── transform.py          # Normalização e validação
@@ -114,3 +113,4 @@ Logging Estruturado: Utilização da biblioteca logging com formato JSON (src/ut
 🗓️ Regras de Entrega e Apresentação
 
 Este projeto está configurado para ser entregue com o código no GitHub e este README.md completo. A apresentação ao vivo seria uma oportunidade para demonstrar o funcionamento da pipeline e os insights gerados.
+
